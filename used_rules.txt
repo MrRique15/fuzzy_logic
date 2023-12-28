@@ -1,0 +1,243 @@
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[baixo] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[medio] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[baixo]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[baixo]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[medio]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[baixo] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[medio] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[baixo]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[baixo] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[medio] THEN desempenho[medio]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[medio]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[baixo] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[medio] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
+IF ((num_projetos[alto] AND satisfacao[alto]) AND cumprimento_metas[alto]) AND participacao_treinamentos[alto] THEN desempenho[alto]
+	AND aggregation function : fmin
+	OR aggregation function  : fmax
