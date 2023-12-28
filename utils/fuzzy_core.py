@@ -6,13 +6,11 @@ import utils.func_tools as functools
 from skfuzzy import control as ctrl
 from matplotlib import pyplot as plt
 
-
-
 class fuzzy_core:
     def __init__(self, defuzzify_method='centroid', log_file=None):
         
         self.RULES_FILE = 'used_rules.txt'
-        self.LOG_FILE =  log_file if log_file is not None else 'log.txt'
+        self.LOG_FILE =  log_file if log_file is not None else 'outputs/log.txt'
         self.GRAPH_FILE_NAME = 'graph'
         
         # Criação das variáveis de entrada
@@ -54,7 +52,7 @@ class fuzzy_core:
         # Lista de todas as combinações possíveis
         combinacoes = list(itertools.product(conjuntos, repeat=len(variaveis)))
 
-        rules_file = open(self.RULES_FILE, 'w')
+        rules_file = open(f"outputs/{self.RULES_FILE}", 'w')
         # Criar regras dinamicamente
         rules = []
         for combo in combinacoes:
@@ -89,9 +87,9 @@ class fuzzy_core:
     def plot_graph(self, desempenho, satisfacao):
         # Plot
         desempenho.view(sim=self.get_simulator())
-        plt.savefig(self.GRAPH_FILE_NAME + '_desempenho' + '.png')
+        plt.savefig(f"outputs/{self.GRAPH_FILE_NAME}_desempenho.png")
         
         satisfacao.view(sim=self.get_simulator())
-        plt.savefig(self.GRAPH_FILE_NAME + '_inputs' + '.png')
+        plt.savefig(f"outputs/{self.GRAPH_FILE_NAME}_inputs.png")
         
         

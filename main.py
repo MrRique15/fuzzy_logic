@@ -5,7 +5,6 @@ from utils import \
 CSV_INPUT_FILE = 'input.csv'
 
 def main():
-    
     defussify_method = input("Digite o método de defuzzificação ('centroid', 'bisector', 'mom', 'som', 'lom'): ")
     if(defussify_method not in ['centroid', 'bisector', 'mom', 'som', 'lom']):
         print("Método de defuzzificação inválido")
@@ -17,7 +16,7 @@ def main():
     simulador = fuzzyCore.get_simulator()
     log_file = fuzzyCore.get_log_file()
 
-    logger = open(log_file, 'w')
+    logger = open(f"outputs/{log_file}", 'w')
     
     input_type = input("Digite o tipo de entrada ('manual' ou 'csv'): ")
     if input_type == 'manual':
@@ -52,9 +51,9 @@ def main():
         print('Entrada inválida')
         return
     
-    print('Resultado salvo em ' + log_file)
-    print("Regras utilizadas salvas em " + fuzzyCore.get_rules_file())
-    print('Gráfico salvo em ' + fuzzyCore.get_graph_file() + '.png')
+    print(f"Resultado salvo em -> outputs/{log_file}")
+    print(f"Regras utilizadas salvas em -> outputs/{fuzzyCore.get_rules_file()}")
+    print(f"Gráficos salvos em -> outputs/{fuzzyCore.get_graph_file()}.png")
     print("Fim da execução.")
         
     return
